@@ -19,7 +19,7 @@ public class EmailModel {
     private final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID emailId;
     private UUID userId;
     private String emailFrom;
